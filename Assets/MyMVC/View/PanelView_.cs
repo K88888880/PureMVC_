@@ -7,7 +7,6 @@ public class PanelView_ : MonoBehaviour
 {
     public Button button;
     public Text text;
-    public Text label;  
-    public GameObject panel;    
+  
      
 }

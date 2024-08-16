@@ -12,10 +12,9 @@ public class PanelProxy_ : PureMVC.Patterns.Proxy
     {
 
     }
-
-
-
-
+    /// <summary>
+    /// …Ë÷√ ±º‰
+    /// </summary>
     public void SetTime()
     {
         time=System.DateTime.Now.ToString();

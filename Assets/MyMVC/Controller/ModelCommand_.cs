@@ -16,6 +16,7 @@ public class ModelCommand_ : PureMVC.Patterns.SimpleCommand
         PanelProxy_ panelProxy_=Facade.RetrieveProxy(PanelProxy_.NAME) as PanelProxy_;
         if (panelProxy_!=null)
         {
+            //调用Model层进行操作
             panelProxy_.SetTime();
 
         }

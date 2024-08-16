@@ -2,12 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartGame_ : MonoBehaviour
+public class BagStart : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        //Æô¶¯¿ò¼Ü
-        StartFacade_.GetInstance().Start();
+        BagFacade.GetInstance().Start();    
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
     }
 }

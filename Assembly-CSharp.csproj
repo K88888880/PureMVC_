@@ -102,6 +102,15 @@
     <Compile Include="Assets\MyMVC\Model\PanelProxy_.cs" />
     <Compile Include="Assets\MyMVC\View\PanelView_.cs" />
     <Compile Include="Assets\MyMVC\Controller\ModelCommand_.cs" />
+    <Compile Include="Assets\BagMVC\BagStart.cs" />
+    <Compile Include="Assets\BagMVC\BagFacade.cs" />
+    <Compile Include="Assets\BagMVC\Controller\BagCommand.cs" />
+    <Compile Include="Assets\BagMVC\View\BagView.cs" />
+    <Compile Include="Assets\BagMVC\View\BagMediator.cs" />
+    <Compile Include="Assets\BagMVC\Model\BagModel.cs" />
+    <Compile Include="Assets\BagMVC\Model\BagProxy.cs" />
+    <Compile Include="Assets\BagMVC\Controller\CreateCommand.cs" />
+    <Compile Include="Assets\BagMVC\ConfigManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
