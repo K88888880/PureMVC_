@@ -15,8 +15,9 @@ public class PanelCommand_ : PureMVC.Patterns.SimpleCommand
         PanelMediator_ panelMediator_ = Facade.RetrieveMediator(PanelMediator_.NAME) as PanelMediator_;
         if (panelMediator_ == null)
         {
+            //´´½¨UI
             GameObject panel = GameObject.Instantiate(Resources.Load<GameObject>("Canvas"));
-           panelMediator_=new PanelMediator_(panel);    
+            panelMediator_ = new PanelMediator_(panel);
             Facade.RegisterMediator(panelMediator_);
         }
     }

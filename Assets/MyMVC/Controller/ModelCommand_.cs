@@ -5,6 +5,11 @@ using UnityEngine;
 
 public class ModelCommand_ : PureMVC.Patterns.SimpleCommand
 {
+
+    /// <summary>
+    /// Ö´ÐÐ
+    /// </summary>
+    /// <param name="notification"></param>
     public override void Execute(INotification notification)
     {
         base.Execute(notification);
@@ -12,6 +17,7 @@ public class ModelCommand_ : PureMVC.Patterns.SimpleCommand
         if (panelProxy_!=null)
         {
             panelProxy_.SetTime();
+
         }
 
     }
