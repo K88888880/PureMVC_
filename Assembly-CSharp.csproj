@@ -95,6 +95,13 @@
     <Compile Include="Assets\_Scripts\PureMVCFramework\Interfaces\IMediator.cs" />
     <Compile Include="Assets\_Scripts\PureMVCExample\_Scripts\App.cs" />
     <Compile Include="Assets\_Scripts\PureMVCExample\_Scripts\Model\PlayerDataModel.cs" />
+    <Compile Include="Assets\MyMVC\StartGame_.cs" />
+    <Compile Include="Assets\MyMVC\StartFacade_.cs" />
+    <Compile Include="Assets\MyMVC\Controller\PanelCommand_.cs" />
+    <Compile Include="Assets\MyMVC\View\PanelMediator_.cs" />
+    <Compile Include="Assets\MyMVC\Model\PanelProxy_.cs" />
+    <Compile Include="Assets\MyMVC\View\PanelView_.cs" />
+    <Compile Include="Assets\MyMVC\Controller\ModelCommand_.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

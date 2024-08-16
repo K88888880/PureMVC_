@@ -89,6 +89,8 @@ public class MyFacade : PureMVC.Patterns.Facade {
         RegisterProxy (new BonusProxy (BonusProxy.NAME));
         RegisterProxy (new PlayerDataProxy (PlayerDataProxy.NAME));
 
+
+       //
     }
 
 }
